@@ -1,38 +1,90 @@
+body{
+  background-color: #dddddd;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    font-family: sans-serif;
+    text-align: center;
+   
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  form{
+    margin-bottom: 50px;
   }
-  to {
-    transform: rotate(360deg);
+  .user {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 10px;
   }
-}
+  .user-id{
+    width:25%;
+  }
+  .user-title{
+    width:25%;
+  }
+  .user-body{
+    width:25%;
+  }
+
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .App tbody {
+    margin-top: 5rem;
+    color: rgb(7, 7, 95);
+    font-size: 20px;
+  }
+  
+  .App table {
+    font-size: 20px;
+    background-color: rgb(201, 144, 38);
+    box-shadow: 0px 2px 2px 2px black;
+    margin: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .App tr {
+    box-shadow: 0px 1px rgb(197, 109, 109);
+  }
+  
+  .App th {
+    padding: 10px;
+    border-left: 1px solid brown;
+  }
+  
+  .App td {
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border-left: 1px solid brown;
+  }
+  .pagination{
+    justify-content: center;
+    margin: 50px 0 0;
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+  }
+  
+  .pagination li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px;
+    transition: all ease 0.3s;
+  }
+  
+  .pagination li:hover{
+    background-color: white;
+    border-color: white;
+  }
+  
+  
